@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono, Figtree } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
+import { Analytics } from "@vercel/analytics/next";
 
 import ScrollProgress from "@/components/ui/ScrollProgress";
 import CustomCursor from "@/components/ui/CustomCursor";
@@ -50,6 +51,7 @@ export default function RootLayout({
         <main className="relative z-10">
           {children}
         </main>
+        <Analytics />
       </body>
     </html>
   );
