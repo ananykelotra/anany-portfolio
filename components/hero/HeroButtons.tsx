@@ -27,18 +27,18 @@ export default function HeroButtons() {
 
       {/* Resume */}
 
-      <a
-        href="/Anany_Kelotra_Resume.pdf"
-        download
-        className="group inline-flex items-center gap-3 rounded-full border border-white/10 bg-white/5 px-8 py-4 font-medium backdrop-blur-xl transition-all duration-300 hover:border-violet-500 hover:bg-violet-500/10"
-      >
-        <Download
-          size={18}
-          className="transition-transform duration-300 group-hover:-translate-y-1"
-        />
+<a
+  href="/resume/Anany_Kelotra_Resume.pdf"
+  download="Anany_Kelotra_Resume.pdf"
+  className="group inline-flex items-center gap-3 rounded-full border border-white/10 bg-white/5 px-8 py-4 font-medium backdrop-blur-xl transition-all duration-300 hover:border-violet-500 hover:bg-violet-500/10"
+>
+  <Download
+    size={18}
+    className="transition-transform duration-300 group-hover:-translate-y-1"
+  />
 
-        Download Resume
-      </a>
+  Download Resume
+</a>
 
       {/* GitHub */}
 
