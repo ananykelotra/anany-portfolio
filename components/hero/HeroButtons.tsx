@@ -28,7 +28,7 @@ export default function HeroButtons() {
       {/* Resume */}
 
       <a
-        href="/Anany Resume 2026AUG copy"
+        href="/Anany_Kelotra_Resume.pdf"
         download
         className="group inline-flex items-center gap-3 rounded-full border border-white/10 bg-white/5 px-8 py-4 font-medium backdrop-blur-xl transition-all duration-300 hover:border-violet-500 hover:bg-violet-500/10"
       >
